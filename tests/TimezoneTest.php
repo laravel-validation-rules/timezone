@@ -1,5 +1,15 @@
 <?php
 
+/*
+ * This file is part of https://github.com/laravel-validation-rules/timezone
+ *
+ *  (c) Scott Wilcox <scott@dor.ky>
+ *
+ *  For the full copyright and license information, please view the LICENSE
+ *  file that was distributed with this source code.
+ *
+ */
+
 namespace Tests;
 
 use App\Rules\Timezone;
@@ -12,8 +22,8 @@ use Illuminate\Validation\Factory as Validator;
 
 final class TimezoneTest extends TestCase
 {
-
-    public function buildValidator($timezone) {
+    public function buildValidator($timezone)
+    {
         $app = new Container();
         $app->singleton('app', 'Illuminate\Container\Container');
         $translator     = new Translator(new FileLoader(new Filesystem(), null), 'en');
@@ -43,6 +53,4 @@ final class TimezoneTest extends TestCase
         $validator = $this->buildValidator("Bob/Dole");
         $this->assertTrue($validator->fails());
     }
-
-
 }
