@@ -10,7 +10,7 @@
  *
  */
 
-namespace App\Rules;
+namespace LVR\Timezone;
 
 use DateTimeZone;
 use Illuminate\Contracts\Validation\Rule;

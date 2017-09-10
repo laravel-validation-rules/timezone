@@ -10,9 +10,9 @@
  *
  */
 
-namespace Tests;
+namespace LVR\Timezone\Tests;
 
-use App\Rules\Timezone;
+use LVR\Timezone\Timezone;
 use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Translation\FileLoader;

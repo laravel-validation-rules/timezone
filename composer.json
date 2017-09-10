@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\Rules\\": "src/"
+            "LVR\\Timezone\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests"
+            "LVR\\Timezone\\Tests\\": "tests/"
         }
     },
     "scripts": {
