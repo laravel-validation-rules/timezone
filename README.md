@@ -1,15 +1,15 @@
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/laravel-validation-rules/timezone.svg)]()
-[![Travis](https://img.shields.io/travis/laravel-validation-rules/timezone.svg)]()
-[![Packagist](https://img.shields.io/packagist/dt/laravel-validation-rules/timezone.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/laravel-validation-rules/timezone/total.svg)]()
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/ssx/php-ssh-keypairs.svg)]()
+[![Travis](https://img.shields.io/travis/ssx/php-ssh-keypairs.svg)]()
+[![Packagist](https://img.shields.io/packagist/dt/ssx/php-ssh-keypairs.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/ssx/php-ssh-keypairs/total.svg)]()
 
-# Laravel Validator Rules - Timezone
+# PHP RSA/SSH Key-pair Generator
 
-This rule will validate that a given timezone is valid within the systems datetime database.
+This package will generate RSA/SSH key-pairs.
 
 ### License
 This project is licensed under an Apache 2.0 license which you can find
-[in this LICENSE](https://github.com/laravel-validation-rules/timezone/blob/master/LICENSE).
+[in this LICENSE](https://github.com/ssx/php-ssh-keypairs/blob/master/LICENSE).
 
 
 ### Feedback

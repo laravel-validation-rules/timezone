@@ -1,8 +1,8 @@
 {
-    "name": "laravel-validation-rules/timezone",
-    "description": "Validate that a given timezone is valid.",
+    "name": "ssx/php-ssh-keypairs",
+    "description": "Simple wrapper to generate RSA/SSH keypairs.",
     "type": "library",
-    "keywords": [ "laravel", "validation" ],
+    "keywords": [ "ssh", "keys", "rsa" ],
     "license": "Apache-2.0",
     "authors": [
         {
@@ -12,20 +12,19 @@
         }
     ],
     "require": {
-        "illuminate/validation": "^5.5",
-        "illuminate/translation": "^5.5"
+        "phpseclib/phpseclib": "2.0.6"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.7"
     },
     "autoload": {
         "psr-4": {
-            "LVR\\Timezone\\": "src/"
+            "SSX\\SSH\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LVR\\Timezone\\Tests\\": "tests/"
+            "SSX\\SSH\\Tests\\": "tests/"
         }
     },
     "scripts": {
