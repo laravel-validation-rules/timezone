@@ -2,7 +2,7 @@
     "name": "laravel-validation-rules/timezone",
     "description": "Validate that a given timezone is valid.",
     "type": "library",
-    "keywords": [ "laravel", "validation" ],
+    "keywords": [ "laravel", "validation", "timezone", "validator" ],
     "license": "Apache-2.0",
     "authors": [
         {
