@@ -5,7 +5,7 @@
 
 # Laravel Validator Rules - Timezone
 
-This rule will validate that a given timezone is valid within the systems datetime database.
+This rule will validate that a given timezone is valid within the systems date-time database.
 
 ### License
 This project is licensed under an Apache 2.0 license which you can find
