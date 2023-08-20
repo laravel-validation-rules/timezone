@@ -19,4 +19,4 @@ issue within this repository.
 
 ### Security
 If you have security feedback, please contact me via email at
-<security@ssx.email> and I'll usually respond as soon as possible.
+<scott@dor.ky> and I'll usually respond as soon as possible.
